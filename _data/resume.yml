@@ -15,7 +15,7 @@ contact: #联系方式连接等3~5行
 - text: "13265066079"
   href: 'tel:13265066079'
   icon: 'icons/phone.svg'
-- text: "GitHubID"
+- text: "blue1874"
   href: 'https://github.com/blue1874'
   icon: "icons/github.svg"
   attr: 'target="_blank"' #新标签页打开
@@ -49,10 +49,12 @@ main: #简历主要内容，
     sub: 广州速游
     duration: "2021年9月 - 2024年10月"
     tags:
-    - 标签
+    - 开发
+    - 维护
+    - 优化
     summary: 系统功能开发与性能优化
-    detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
-    # open: open
+    detail: 主要工作内容有：UI界面搭建、ARPG战斗逻辑编写、场景材质检查维护、开发工具编写、功能逻辑性能优化
+    open: open
     #可以设置open默认展开
     
 - type: projects
@@ -63,26 +65,15 @@ main: #简历主要内容，
     detail: 3D ARPG手游项目，参与功能开发与维护
   - title: 从前有条街
     duration: 2022年10月 - 2024年10月
-    detail: 模拟经营项目，参与框架搭建、性能优化
+    detail: 模拟经营项目，立项初开始参与，较为深度参与了框架搭建、性能优化
    #可继续添加更多内容
 
 #others 其他简略内容(列表)
 others: #其他列表显示
 - type: others #ID可以为空
-  name: '其他'
+  name: '个人简介'
   content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
-    items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
-  - title: 列表
-    list:
-    - 第一项
-    - 第二项
+  - 工作态度认真负责，积极沟通交流；保持良好的学习能力，对解决问题有着高度的热情和耐心
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式

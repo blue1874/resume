@@ -62,11 +62,11 @@ main: #简历主要内容，
   - title: 源战役
     duration: 2021年10月 - 2022年10月
     detail: 
-    md: _data/demo.md
+      md: _data/demo.md
   - title: 从前有条街
     duration: 2022年10月 - 2024年10月
     detail: 
-    md: _data/demo2.md
+      md: _data/demo2.md
    #可继续添加更多内容
 
 #others 其他简略内容(列表)

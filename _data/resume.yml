@@ -32,21 +32,29 @@ main: #简历主要内容，
     detail: 软件工程专业
 
 - type: skills
-  name: "技能"
-  content: 
-  - 拥有 3 年以上 Unity 游戏开发经验，完整参与过ARPG、SLG等游戏类型的研发与上线。
-  - 熟练掌握 C#/lua 与面向对象设计，属性 UGUI，在UI性能优化（内存、Draw Call）方面有丰富实战经验。
-  - 熟悉渲染管线（Built-in / URP）；了解 ShaderLab 或 ShaderGraph，能编写或修改基础的特效和材质 Shader。
+  name: "技能栈"
+  content:   拥有 3 年以上 Unity 游戏开发经验，完整参与过ARPG、SLG等游戏类型的研发与上线; 熟练掌握 C#/lua 与面向对象设计，属性 UGUI，在UI性能优化（内存、Draw Call）方面有丰富实战经验;熟悉渲染管线（Built-in / URP）；了解 ShaderLab 或 ShaderGraph，能编写或修改基础的特效和材质 Shader。
   - title: 编程语言
-    items: #itmems 可以小块的方式显示
-    - C++/C#
-    - lua
-
+    items:
+    - C# / Lua
+    - C++
+    - GLSL / ShaderLab
+  - title: 引擎与工具
+    items:
+    - Unity / UGUI / TextMeshPro
+    - URP / Built-in Pipeline
+    - Git / SVN
+  - title: 核心能力
+    items:
+    - UI框架设计 (MVP / MVVM)
+    - 性能优化 (内存 / DrawCall / GC)
+    - 编辑器工具链开发
+    - 渲染管线与基础Shader编写
 - type: experience
   name: 经验
   content:
   - title: 客户端开发工程师
-    duration: "2022年3月 - 2026年5月"
+    duration: "2022年3月 - 至今"
     tags:
     - 开发
     - 优化
@@ -56,6 +64,17 @@ main: #简历主要内容，
     - 开发了一套UI编辑器工具，支持通过标记的方式进行UI绑定的自动导出；接入Psd2Unity工具，通过工具约束UI节点命名（美术友好），自动设置节点大小位置等属性，提速UI工作流。
     - 既有项目内通过优化图集结构、减少mask等组件使用、引入UIParticle方案等方式，显著减少了UI界面的DrawCall
     - 实现TMP的文本效果库，支持各类顶点动画等艺术效果；通过uv通道传递材质参数的方式，实现字体材质合并，减少开发制作成本
+    open: open
+    #可以设置open默认展开
+  - title: 客户端开发工程师
+    duration: "2022年3月 - 至今"
+    tags:
+    - 开发
+    - 优化
+    summary: 渲染管线扩展与定制
+    detail: 
+    - 常见的渲染功能拓展开发，包括角色描边、全局雾效等；在保证性能的同时为美术团队提供了简单易用的效果参数接口
+    - 简单的技术美术支持，为特效shader添加美术想要的特性，例如裁剪、混合等；
     open: open
     #可以设置open默认展开
 

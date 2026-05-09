@@ -33,7 +33,8 @@ main: #简历主要内容，
 
 - type: skills
   name: "技能栈"
-  content:   拥有 3 年以上 Unity 游戏开发经验，完整参与过ARPG、SLG等游戏类型的研发与上线; 熟练掌握 C#/lua 与面向对象设计，属性 UGUI，在UI性能优化（内存、Draw Call）方面有丰富实战经验;熟悉渲染管线（Built-in / URP）；了解 ShaderLab 或 ShaderGraph，能编写或修改基础的特效和材质 Shader。
+  content:   
+  - detail: 拥有 3 年以上 Unity 游戏开发经验，完整参与过ARPG、SLG等游戏类型的研发与上线; 熟练掌握 C#/lua 与面向对象设计，属性 UGUI，在UI性能优化（内存、Draw Call）方面有丰富实战经验;熟悉渲染管线（Built-in / URP）；了解 ShaderLab 或 ShaderGraph，能编写或修改基础的特效和材质 Shader。
   - title: 编程语言
     items:
     - C# / Lua
@@ -50,6 +51,8 @@ main: #简历主要内容，
     - 性能优化 (内存 / DrawCall / GC)
     - 编辑器工具链开发
     - 渲染管线与基础Shader编写
+
+
 - type: experience
   name: 经验
   content:
@@ -65,7 +68,6 @@ main: #简历主要内容，
     - 既有项目内通过优化图集结构、减少mask等组件使用、引入UIParticle方案等方式，显著减少了UI界面的DrawCall
     - 实现TMP的文本效果库，支持各类顶点动画等艺术效果；通过uv通道传递材质参数的方式，实现字体材质合并，减少开发制作成本
     open: open
-    #可以设置open默认展开
   - title: 客户端开发工程师
     duration: "2022年3月 - 至今"
     tags:

@@ -33,41 +33,31 @@ main: #简历主要内容，
 
 - type: skills
   name: "技能"
-  content:
+  content: 
+  - 拥有 3 年以上 Unity 游戏开发经验，完整参与过ARPG、SLG等游戏类型的研发与上线。
+  - 熟练掌握 C#/lua 与面向对象设计，属性 UGUI，在UI性能优化（内存、Draw Call）方面有丰富实战经验。
+  - 熟悉渲染管线（Built-in / URP）；了解 ShaderLab 或 ShaderGraph，能编写或修改基础的特效和材质 Shader。
   - title: 编程语言
     items: #itmems 可以小块的方式显示
     - C++/C#
     - lua
-  - title: 开发工具
-    summary: 熟悉Unity引擎以及一些性能调试工具的使用，会编写插件等辅助开发。熟悉luaframework框架的使用，了解C#与lua交互原理。
 
 - type: experience
   name: 经验
   content:
   - title: 客户端开发工程师
-    sub: 广州速游
-    duration: "2021年9月 - 2024年10月"
+    duration: "2022年3月 - 2026年5月"
     tags:
     - 开发
-    - 维护
     - 优化
-    summary: 系统功能开发与性能优化
-    detail: 主要工作内容有：UI界面搭建、ARPG战斗逻辑编写、场景材质检查维护、开发工具编写、功能逻辑性能优化
+    summary: UI架构设计与优化经验
+    detail: 
+    - 主导设计并搭建了基于 MVP 模式的 UI 框架，通过响应式数据绑定实现业务逻辑与视图的解耦，规范化UI开发流程。
+    - 开发了一套UI编辑器工具，支持通过标记的方式进行UI绑定的自动导出；接入Psd2Unity工具，通过工具约束UI节点命名（美术友好），自动设置节点大小位置等属性，提速UI工作流。
+    - 既有项目内通过优化图集结构、减少mask等组件使用、引入UIParticle方案等方式，显著减少了UI界面的DrawCall
+    - 实现TMP的文本效果库，支持各类顶点动画等艺术效果；通过uv通道传递材质参数的方式，实现字体材质合并，减少开发制作成本
     open: open
     #可以设置open默认展开
-    
-- type: projects
-  name: 项目经历
-  content:
-  - title: 源战役
-    duration: 2021年10月 - 2022年10月
-    detail: 
-      md: _data/demo.md
-  - title: 从前有条街
-    duration: 2022年10月 - 2024年10月
-    detail: 
-      md: _data/demo2.md
-   #可继续添加更多内容
 
 #others 其他简略内容(列表)
 others: #其他列表显示
